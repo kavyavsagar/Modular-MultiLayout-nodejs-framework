@@ -1,0 +1,17 @@
+{
+  "name": "Sample app",
+  "description": "The second generation",
+  "version": "2.0.0",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "scripts": {
+    "start": "node app.js"
+  },
+  "private": true,
+  "dependencies": {     
+    "express": "latest", 
+    "mongoose": "latest",
+    "express-handlebars" : "latest"
+  }
+}

@@ -1,0 +1,17 @@
+<h1>User Lists</h1>
+
+<table style="width:100%">
+  <tr>
+    <th>Email</th>
+    <th>Name</th> 
+    <th>Joined</th>
+  </tr>
+   {{#each userdata}}
+    <tr>
+    <td>{{this.email}}</td>
+    <td>{{this.name}}</td> 
+    <td>{{this.created}}</td>
+  </tr>
+ {{/each}}
+</table>
+
